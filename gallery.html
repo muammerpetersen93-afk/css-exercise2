@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="page-header">
+        <p class="eyebrow">A collection of moments</p>
+        <h1>Explore the Gallery</h1>
+        <p class="intro">
+            Discover beautiful places, people, and spaces from around the world.
+        </p>
+    </header>
+
+    <main class="gallery-container">
+
+        <!-- Filter Buttons -->
+        <nav class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="landscapes">Landscapes</button>
+            <button class="filter-btn" data-filter="portraits">Portraits</button>
+            <button class="filter-btn" data-filter="architecture">Architecture</button>
+        </nav>
+
+        <!-- Image Gallery -->
+        <section class="gallery-grid">
+
+            <!-- Image 1 -->
+            <article class="gallery-card" data-category="landscapes">
+                <div class="image-wrap">
+                    <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=900" alt="Mountain lake">
+                    <div class="overlay">
+                        <p>A peaceful alpine lake mirrors the mountains at sunrise.</p>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h2>Mountain Reflection</h2>
+                    <span>Landscapes</span>
+                </div>
+            </article>
+
+            <!-- Image 2 -->
+            <article class="gallery-card" data-category="portraits">
+                <div class="image-wrap">
+                    <img src="image5 (2).png" alt="woman with happy expression">
+                    <div class="overlay">
+                        <p>A natural portrait capturing a happy expression.</p>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h2>Asian beauty</h2>
+                    <span>Portraits</span>
+                </div>
+            </article>
+
+            <!-- Image 3 -->
+            <article class="gallery-card" data-category="landscapes">
+                <div class="image-wrap">
+                    <img src="image4 (2).png" alt="over the clouds">
+                    <div class="overlay">
+                        <p>A serene landscape with rolling clouds.</p>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h2>Rolling Clouds</h2>
+                    <span>Landscapes</span>
+                </div>
+            </article>
+
+            <!-- Image 4 -->
+            <article class="gallery-card" data-category="landscapes">
+                <div class="image-wrap">
+                    <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?w=900" alt="Beautiful nature landscape">
+                    <div class="overlay">
+                        <p>Warm evening light settles over a wide open landscape.</p>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h2>Golden Hour</h2>
+                    <span>Landscapes</span>
+                </div>
+            </article>
+
+            <!-- Image 5 -->
+            <article class="gallery-card" data-category="portraits">
+                <div class="image-wrap">
+                    <img src="image7 (2).png" alt="close up of a man in pure focus">
+                    <div class="overlay">
+                        <p>A close-up study of expression, light, and detail.</p>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h2>Pure Focus</h2>
+                    <span>Portraits</span>
+                </div>
+            </article>
+
+            <!-- Image 6 -->
+            <article class="gallery-card" data-category="architecture">
+                <div class="image-wrap">
+                    <img src="image13.png" alt="Urban architecture">
+                    <div class="overlay">
+                        <p>Repeating shapes create rhythm across this city facade.</p>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h2>Urban Geometry</h2>
+                    <span>Architecture</span>
+                </div>
+            </article>
+
+            <!-- Image 7 -->
+            <article class="gallery-card" data-category="architecture">
+                <div class="image-wrap">
+                    <img src="image12.png" alt="Modern architecture with natural elements">
+                    <div class="overlay">
+                        <p>Modern architecture meets natural elements in this striking design.</p>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h2>Modern architecture</h2>
+                    <span>architecture</span>
+                </div>
+            </article>
+
+            <!-- Image 8 -->
+            <article class="gallery-card" data-category="portraits">
+                <div class="image-wrap">
+                <img src="image8.png" alt="Close-up of a man in struggle">    
+                    <div class="overlay">
+                        <p>Intense emotion captured in this raw portrait.</p>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h2>Pure Struggle</h2>
+                    <span>Portraits</span>
+                </div>
+            </article>
+
+            <!-- Image 9 -->
+            <article class="gallery-card" data-category="architecture">
+                <div class="image-wrap">
+                <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?w=900" alt="Modern architecture">   
+                    <div class="overlay">
+                        <p>A contemporary structure framed by repeating windows.</p>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h2>City Patterns</h2>
+                    <span>Architecture</span>
+                </div>
+            </article>
+
+            <!-- Image 10 -->
+            <article class="gallery-card" data-category="landscapes">
+                <div class="image-wrap">
+                <img src="image11.png" alt="Serene landscape">    
+                    <div class="overlay">
+                        <p>A serene landscape with rolling hills and a clear blue sky.</p>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h2>Into the Wild</h2>
+                    <span>Landscapes</span>
+                </div>
+            </article>
+
+            <!-- Image 11 -->
+            <article class="gallery-card" data-category="portraits">
+                <div class="image-wrap">
+                    <img src="image14.png" alt="White Man with 1900 hairstyle">
+                    <div class="overlay">
+                        <p>White Man</p>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h2>1900 Hairstyle</h2>
+                    <span>Portraits</span>
+                </div>
+            </article>
+
+            <!-- Image 12 -->
+            <article class="gallery-card" data-category="architecture">
+                <div class="image-wrap">
+                    <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=900" alt="Modern interior architecture">
+                    <div class="overlay">
+                        <p>Simple materials and strong shapes make a bold statement.</p>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <h2>Designed to Inspire</h2>
+                    <span>Architecture</span>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <!-- JavaScript for Filtering -->
+    <script>
+        const filterButtons = document.querySelectorAll(".filter-btn");
+        const galleryCards = document.querySelectorAll(".gallery-card");
+
+        filterButtons.forEach((button) => {
+            button.addEventListener("click", () => {
+
+                const selectedFilter = button.dataset.filter;
+
+                filterButtons.forEach((item) => {
+                    const isActive = item === button;
+                    item.classList.toggle("active", isActive);
+                    item.setAttribute("aria-pressed", isActive);
+                });
+
+                galleryCards.forEach((card) => {
+                    const shouldShow =
+                        selectedFilter === "all" ||
+                        card.dataset.category === selectedFilter;
+
+                    if (shouldShow) {
+                        card.hidden = false;
+
+                        requestAnimationFrame(() => {
+                            card.classList.remove("is-hidden");
+                        });
+
+                    } else {
+                        card.classList.add("is-hidden");
+
+                        window.setTimeout(() => {
+                            if (card.classList.contains("is-hidden")) {
+                                card.hidden = true;
+                            }
+                        }, 250);
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
